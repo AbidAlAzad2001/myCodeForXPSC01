@@ -70,7 +70,7 @@ int main()
             int sum = 0;
             int len = 0, mxlen = i + 1;
             bool possible = false;
-            for (int j = i + 1; i < n; j++)
+            for (int j = i + 1; j < n; j++)
             {
                 if (sum + a[j] > segSum)
                     break;
